@@ -1,0 +1,241 @@
+<!-- HEENA - 8820906  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/reset.css">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <title>Sneaker Shop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo inline-block">
+            <a href="./index.html"><img src="./Images/logo.png" alt="Logo Image"></a>
+        </div>
+        <div class="main-heading inline-block">
+            <h1>Project - Heena - heena1906@conestogac.on.ca</h1> 
+        </div>
+    </header>
+
+    <nav class="navigation-header">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li>
+                <a href="./collections.html">Collection</a>
+                <ul>
+                    <li><a href="./shopping.html#sneakers">Sneakers</li></a>
+                    <li><a href="./shopping.html#running-shoes">Running Shoes</li></a>
+                    <li><a href="./shopping.html#fashion">Fashion Sneakers</li></a>
+                    <li><a href="./shopping.html#outdoors">Outdoors</li></a>
+                </ul>
+            </li>
+            <li><a href="./shopping.html#best-sellers">Best Sellers</a></li>  
+            <li><a href="./about-us.html">About Us</a></li>          
+            <li><a href="./collections.html#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main class="collections">
+        <div class="full-image">
+            <img src="./Images/sneaker-13.jpg" alt="Sneakers main image">
+            <div class="shadow"></div>
+            <div class="hover-description light-text-color">
+                <div class="inner-box">
+                    <h1 class="text-center">Collections page</h1>
+                    <p>
+                        Click on button below to - 
+                    </p>
+                    <p>
+                        <i>Start your shopping with us!!</i>
+                    </p>
+                    <button class="shopping-button"><a href="./shopping.html">Start Shopping!</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-2 margin-top-40">
+            <div class="box-1">
+                <h2>Best in Comfort</h2>
+                <p>These shoes are specially known for their comfort. And once you start using we can 
+                    assure you that can't resist and will be in love in these. One should just take of the
+                    fact that they should always go for their own size and shouldn't 
+                    compromise with that.</p>
+                <p>These shoes are specially known for their comfort. And once you start using we can 
+                    assure you that can't resist and will be in love in these. </p>
+            </div>
+            <div class="box-2">
+                <video controls loop muted poster="./Media/Screenshot.jpg">
+                    <source src="./Media/GMT20230411-172232_Recording_1920x1200.mp4" type="video/mp4">
+                    <p>
+                    Sorry, your browser does not support video. You can download it from this
+                    <a href="https://www.youtube.com/watch?v=geFi-ZpN2ZM">link.</a>
+                    </p>
+                </video>
+            </div>
+        </div>
+
+        <div class="container-3 margin-top-40">
+            <h2 class="text-center">Types of Sneakers we have and their qualities</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serial No</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Quality-1</th>
+                        <th>Quality-2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Sneaker-1</td>
+                        <td>Fashion</td>
+                        <td>Best in Comfort</td>
+                        <td>Best in Style</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Sneaker-2</td>
+                        <td>Fashion</td>
+                        <td>Best in Looks</td>
+                        <td>Best in Contrast</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Sneaker-3</td>
+                        <td>Comfort</td>
+                        <td>White and Trendy</td>
+                        <td>Best in Style</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Sneaker-4</td>
+                        <td>Sports</td>
+                        <td>Durable for long hours</td>
+                        <td>Fit to size</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Sneaker-5</td>
+                        <td>Running</td>
+                        <td>Best in Comfort</td>
+                        <td>Best in Style</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="contact-us" class="container-3 margin-top-40">
+            <h2 class="text-center">
+                Feeling excited? Give us your details to reach you!
+            </h2>
+            <form action="" class="main-form">
+                <fieldset class="fieldset-1">
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your Full name" required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email Address" required>
+                    </div>
+                    <div>
+                        <label for="address">Address:</label>
+                        <textarea name="address" cols="30" rows="7" name="address" placeholder="Enter your complete Address" required></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset class="fieldset-2">
+                    <legend>Your choice</legend>
+                    
+                    <div>
+                        <label for="choice">Category</label>
+                        <select aria-placeholder="Select your favorite category">
+                            <option value="" disabled="disabled">Select your favorite category</option>
+                            <optgroup label = "Fashion">
+                               <option value = "White">White Sneakers</option>
+                               <option value = "Rainbow">Rainbow Shades</option>
+                               <option value = "All-time-fav">All Black Shoes</option>
+                            </optgroup>
+                            <optgroup label = "Sports">
+                               <option value = "Table-Tennis">Table Tennis</option>
+                               <option value = "Running">Running</option>
+                               <option value = "Football">Football</option>
+                            </optgroup>
+                         </select>
+                    </div>
+                    <div>
+                        <label for="" class="full-width margin-bottom-5">Which of these categories you love the most?</label>
+                        </br>
+                        <input type="checkbox" name="Fashion" value="Fashion">
+                        <label for="quantity">Fashion</label>
+                        <input type="checkbox" name="Sports" value="Sports">
+                        <label for="quantity">Sports</label>
+                        <input type="checkbox" name="All White" value="All White"> 
+                        <label for="quantity">All White</label>
+                    </div>
+                    <div>
+                        <label class="full-width margin-bottom-5">How would you like to rate our products on scale on 1 to 10</label>
+                        <input type="radio" name="survey" value="best">Best (8-10) </br>
+                        <input type="radio" name="survey" value="average">Average (6-8) </br>
+                        <input type="radio" name="survey" value="ok">Okish (4-6) </br>
+                        <input type="radio" name="survey" value="need-improvement">Need Improvement (2-4) </br>
+                        <input type="radio" name="survey" value="bad">Bad (0-2) 
+                    </div>
+                </fieldset>
+                <fieldset class="fieldset-3">
+                    <div class="text-center btn-reset">
+                        <input type="reset" value="Reset Request">
+                        <input type="submit" value="Submit Request">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer margin-top-40">
+        <nav class="navigation-footer">
+            <ul>
+                <li><a href="./privacy-policy.html"><b>Privacy Policy</b></a>
+                    <ul>
+                        <li><a href="./privacy-policy.html#Informaiton-collection">Information Collection</a></li>
+                        <li><a href="./privacy-policy.html#Information-use">Information Use</a></li>   
+                        <li><a href="./privacy-policy.html#third-party">Third-party Access</a></li>
+                        <li><a href="./privacy-policy.html#Security-measures">Security Measures </a></li>
+                        <li><a href="./privacy-policy.html#review&update">Review and Updates</a></li>
+                        <li><a href="./privacy-policy.html#third-party">Third-party Access</a></li>
+                        <li><a href="./privacy-policy.html#complaints">Complaints and Concerns</a></li>
+                    </ul>
+                </li>
+                <li><a href="./terms-condition.html"><b>Terms and Conditions</b></a>
+                    <ul>
+                        <li><a href="./terms-condition.html#Website-Use">Website Use</a></li>
+                        <li><a href="./terms-condition.html#product-desc">Product Description</a></li>   
+                        <li><a href="./terms-condition.html#pricing">Pricing</a></li>
+                        <li><a href="./terms-condition.html#order&payments">Orders and Payments</a></li>
+                        <li><a href="./terms-condition.html#shipping">Shipping and Delivery</a></li>
+                        <li><a href="./terms-condition.html#returns">Returns and Exchanges</a></li>
+                        <li><a href="./terms-condition.html#limitation">Limitation of Liability</a></li>
+                    </ul></li>
+                <li><a href="./collections.html#contact-us"><b>Contact Us</b></a>
+                    <ul>
+                        <li><a href="mailTo:mail@mail.com">Email - mail@mail.com</a></li>
+                        <li><a href="tel:1231231234">Phone - (123)123-1234</a></li>
+                        <li><a href="https://www.linkedin.com/in/heena-taneja-24628b105" target=”_blank”>Linkedin</a></li>
+                    </ul></li>
+            </ul>
+        </nav>
+        <div class="footer-bottom">
+            &copy; Copyright Heena - heena1906@conestogac.on.ca - 8821906  
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+<!-- PIctures took from https://www.pexels.com/ -->
